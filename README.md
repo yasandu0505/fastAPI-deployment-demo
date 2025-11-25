@@ -8,18 +8,22 @@ A simple FastAPI demo project with a health check endpoint.
 ```bash
 python3 -m venv venv
 ```
+2. Activate virtual environment 
+```bash
+source venv/bin/activate
+```
 
-2. Install dependencies:
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the application:
+4. Run the application:
 ```bash
 uvicorn main:app --reload
 ```
 
-4. Access the health endpoint:
+5. Access the health endpoint:
 - Open your browser to `http://localhost:8000/health`
 - Or view the interactive API docs at `http://localhost:8000/docs`
 
